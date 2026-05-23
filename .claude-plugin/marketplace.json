@@ -1,0 +1,37 @@
+{
+  "name": "ronenmars",
+  "owner": {
+    "name": "Ronen Bar-Vichman",
+    "url": "https://github.com/RonenMars"
+  },
+  "plugins": [
+    {
+      "name": "npm-registry-manager",
+      "source": {
+        "source": "github",
+        "repo": "RonenMars/npm-registry-manager"
+      },
+      "description": "Manage npm registries from Claude Code. Switch between public npm, GitHub Packages, private/enterprise registries, and regional mirrors (taobao, tencent, huawei, yarn, etc.). An nrm/grm replacement that needs only npm for core operations.",
+      "version": "0.3.0",
+      "category": "tooling",
+      "tags": ["npm", "registry", "nrm", "yarn", "pnpm", "package-manager", "devops"],
+      "keywords": ["npm", "registry", "nrm", "yarn", "pnpm"],
+      "license": "MIT",
+      "homepage": "https://github.com/RonenMars/npm-registry-manager"
+    },
+    {
+      "name": "npm-package-owner",
+      "source": {
+        "source": "github",
+        "repo": "RonenMars/npm-package-owner"
+      },
+      "description": "Manage your published npm packages — pre-publish safety checks, a guarded publish flow (plan → confirm → execute), download stats, and package health overviews. Companion to npm-registry-manager.",
+      "version": "0.1.0",
+      "category": "tooling",
+      "tags": ["npm", "publish", "package", "downloads", "stats", "owner", "maintainer", "devops"],
+      "keywords": ["npm", "publish", "downloads", "stats", "package"],
+      "license": "MIT",
+      "homepage": "https://github.com/RonenMars/npm-package-owner"
+    }
+  ]
+}
