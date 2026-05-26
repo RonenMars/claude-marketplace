@@ -32,6 +32,20 @@
       "keywords": ["npm", "publish", "downloads", "stats", "package"],
       "license": "MIT",
       "homepage": "https://github.com/RonenMars/npm-package-owner"
+    },
+    {
+      "name": "ralph-loop-file",
+      "source": {
+        "source": "github",
+        "repo": "RonenMars/ralph-loop-file"
+      },
+      "description": "Ralph Loop variant that reads its prompt from a file — safe for multi-line prompts containing apostrophes, backticks, or shell-special characters.",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["ralph-loop", "claude-code", "loop", "prompt-file", "playwright", "e2e"],
+      "keywords": ["ralph-loop", "claude-code", "loop", "prompt-file"],
+      "license": "MIT",
+      "homepage": "https://github.com/RonenMars/ralph-loop-file"
     }
   ]
 }
